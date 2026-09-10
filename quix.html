@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz App</title>
+    <link rel="stylesheet" href="quix.css">
+</head>
+<body>
+
+   
+    <div class="container" id="welcomePage">
+        <h1>Welcome to Quiz</h1>
+        <p>Test your JavaScript knowledge!</p>
+        <button id="startBtn">Start Quiz</button>
+    </div>
+
+
+   
+    <div class="container hide" id="quizPage">
+
+        <h2 id="question">Question</h2>
+
+        <div id="options">
+            <button class="option">Option 1</button>
+            <button class="option">Option 2</button>
+            <button class="option">Option 3</button>
+            <button class="option">Option 4</button>
+        </div>
+
+        <button id="nextBtn">Next</button>
+
+    </div>
+
+
+  
+    <div class="container hide" id="resultPage">
+
+        <h1>Quiz Completed!</h1>
+
+        <h2 id="result"></h2>
+
+        <button id="restartBtn">Restart Quiz</button>
+
+    </div>
+
+
+    <script src="quix.js"></script>
+</body>
+</html>
